@@ -21,10 +21,8 @@ if(WIN32)
 
     if (CMAKE_BUILD_TYPE STREQUAL "Debug")
         set(GUROBI_CXX_LIBRARY gurobi_c++mdd2017)
-        #message(STATUS "Using libraries Gurobi C++: gurobi_c++mdd2017")
     else()
         set(GUROBI_CXX_LIBRARY gurobi_c++md2017)
-        #message(STATUS "Using librerías Gurobi C++: gurobi_c++md2017")
     endif()
 
     set(GUROBI_C_LIBRARY gurobi120)
